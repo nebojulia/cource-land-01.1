@@ -1,0 +1,17 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}
+html,
+body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+  font-family: var(--second-family);
+  background-color: #ffffff;
+  height: 100%;
+}

@@ -1,0 +1,9 @@
+.burger {
+  border: none;
+  background-color: #ffffff;
+  padding: 0;
+  height: 32px;
+}
+.burger__logo {
+  fill: #0369a1;
+}
