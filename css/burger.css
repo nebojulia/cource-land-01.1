@@ -7,3 +7,9 @@
 .burger__logo {
   fill: #0369a1;
 }
+
+@media (min-width: 1024px) {
+  .burger {
+    display: none;
+  }
+}

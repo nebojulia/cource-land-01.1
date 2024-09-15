@@ -1,3 +1,22 @@
 .nav {
+  display: flex;
   height: 32px;
+  font-family: "Inter", sans-serif;
+}
+.nav__list {
+  list-style-type: none;
+  display: none;
+  gap: 48px;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #0f172a;
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 1024px) {
+  .nav__list {
+    display: flex;
+  }
 }
