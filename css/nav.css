@@ -1,6 +1,5 @@
 .nav {
   display: flex;
-  height: 32px;
   font-family: "Inter", sans-serif;
 }
 .nav__list {
@@ -15,7 +14,7 @@
   margin: 0;
   padding: 0;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1440px) {
   .nav__list {
     display: flex;
   }
